@@ -1,0 +1,253 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins',sans-serif;
+
+overflow:hidden
+
+
+}
+body{
+display: flex;
+justify-content: center;
+margin-top: 170px;
+
+}
+.general{
+display: flex;
+background:linear-gradient(white,rgb(236, 234, 234));
+border-radius: 40px;
+
+
+
+   
+    
+    
+
+    
+    
+}
+.general p{
+    color: rgb(161, 161, 161);
+    font-size: 18px;
+}
+
+.results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 24rem;
+    height: 540px;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 29px;
+    color: white;
+    text-align: center;
+    
+    
+   
+}
+
+
+
+
+
+section{
+    width: 12rem;
+    height: 12rem;
+    overflow: hidden;
+    background: linear-gradient( hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+}
+section h1{
+    font-size: 60px;
+    transform: translateY(60px);
+    
+}
+section p{
+    line-height: 150px;
+    
+}
+
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transform: translateX(30px);
+    width: 500px;
+}
+.no-reaction{
+    color:hsl(0, 100%, 67%);
+    padding: 11px;
+    width: 19rem;
+    border-radius: 20px;
+    box-shadow: 0  0  1px lightgray;
+    transform: translateX(30px);
+    box-shadow: 0  0  1px lightgray;
+   border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.no-memory{
+    color: hsl(39, 100%, 56%);
+    padding: 11px;
+    border-radius: 20px;
+    width: 19rem;
+    transform: translateX(30px);
+    box-shadow: 0  0  1px lightgray;
+    display: flex;
+    flex-direction: row;
+}
+   
+.no-verbal{
+    color: hsl(166, 100%, 37%);
+    padding: 11px;
+    border-radius: 20px;
+    width: 19rem;
+    transform: translateX(30px);
+    box-shadow: 0  0  1px lightgray;
+    display: flex;
+    flex-direction: row;
+}
+
+.no-visual{
+    color: hsl(234, 85%, 45%);
+    padding: 11px;
+    width: 19rem;   
+    border-radius: 20px;
+    transform: translateX(30px);
+    box-shadow: 0  0  1px lightgray;
+    
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.no-reaction p{
+    transform: translate(110px,2px);
+    
+    
+    
+}
+.no-memory p{
+    transform: translate(117px,2px);  
+}
+.no-verbal p{
+    transform: translate(133px,2px);
+}
+.no-visual p{
+    transform: translate(133px,2px);
+}
+.summary img{
+    transform: translateX(-8px);
+
+}
+button{
+   transform: translate(20px);
+   padding: 17px;
+   width: 300px; 
+   color: white;
+   background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%)) ;
+   border-radius:50px ;
+   cursor: pointer;
+   font-size: 18px;
+}
+button:hover{
+    background:hsl(224, 30%, 27%)
+    
+}
+span{
+    color: black;
+    font-weight: bold;
+    
+}
+
+@media (max-width: 651px){
+
+    body{
+        
+        margin: 0 ;
+
+
+    }
+    .general{
+     display: flex;
+     flex-direction: column;
+     border-radius:0 ;
+     height: 1000px
+     
+
+    }
+    .results{
+        width: 100%;
+        height:40% ;
+        border-radius:0 0 40px 40px ;
+    }
+    .summary{
+      height: 45%;
+      display: flex;
+ 
+    }
+    .no-memory{
+        transform: translateX(80px);
+        box-shadow: 0.1px 0  rgb(167, 165, 165);
+        
+    }
+    .no-reaction{
+        transform: translateX(80px);
+        box-shadow: 0.1px 0  rgb(167, 165, 165);
+    }
+    .no-verbal{
+        transform: translateX(80px);
+        box-shadow: 0.1px 0  rgb(167, 165, 165);
+    }
+
+    .no-visual{
+        transform: translateX(80px);
+        box-shadow: 0.1px 0  rgb(167, 165, 165);
+    }
+    button{
+        transform: translateX(80px);
+        box-shadow: 0.1px 0  rgb(167, 165, 165);
+    }
+    .summary h2{
+        transform: translateX(50px);
+       
+    }
+    
+
+
+
+
+
+    }
+
+    @media(max-width:505px){
+        .general{
+            display: flex;
+            align-items: center;
+        }
+    }
+     
+     
+        
+      
+        
+        
+     
+        
+     
+     
+
+
+
+  
+
+   
+           
+    
